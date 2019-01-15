@@ -360,7 +360,7 @@
 (^|\.)badad\.googleplex\.com$
 (^|\.)csi\.gstatic\.com$
 (^|\.)doubleclick(\.com|\.net)$
-(^|\.)google-analytics\.com$
+# (^|\.)google-analytics\.com$
 (^|\.)googleadservices\.com$
 (^|\.)googleadsserving\.cn$
 (^|\.)googlecommerce\.com$
@@ -1504,7 +1504,6 @@
 (^|\.)\w*ccgslb\w*\.\w*$
 (^|\.)\w*chinacache\w*\.\w*$
 (^|\.)\w*duobao\w*\.\w*$
-(^|\.)\w*duolingo\w*\.\w*$
 (^|\.)\w*jdpay\w*\.\w*$
 (^|\.)\w*moke\w*\.\w*$
 (^|\.)\w*xiami\w*\.\w*$
@@ -1567,18 +1566,18 @@
 (^|\.)dbnsa\.gov\.tw$
 (^|\.)eastcoast-nsa\.gov\.tw$
 (^|\.)erv-nsa\.gov\.tw$
-(^|\.)khm\.google\.com$
-(^|\.)khm\.googleapis\.com$
-(^|\.)khm0\.google\.com$
-(^|\.)khm0\.googleapis\.com$
-(^|\.)khm1\.google\.com$
-(^|\.)khm1\.googleapis\.com$
-(^|\.)khm2\.google\.com$
-(^|\.)khm2\.googleapis\.com$
-(^|\.)khm3\.google\.com$
-(^|\.)khm3\.googleapis\.com$
-(^|\.)khmdb\.google\.com$
-(^|\.)khmdb\.googleapis\.com$
+#(^|\.)khm\.google\.com$
+#(^|\.)khm\.googleapis\.com$
+#(^|\.)khm0\.google\.com$
+#(^|\.)khm0\.googleapis\.com$
+#(^|\.)khm1\.google\.com$
+#(^|\.)khm1\.googleapis\.com$
+#(^|\.)khm2\.google\.com$
+#(^|\.)khm2\.googleapis\.com$
+#(^|\.)khm3\.google\.com$
+#(^|\.)khm3\.googleapis\.com$
+#(^|\.)khmdb\.google\.com$
+#(^|\.)khmdb\.googleapis\.com$
 (^|\.)maolin-nsa\.gov\.tw$
 (^|\.)matsu-nsa\.gov\.tw$
 (^|\.)matsucc\.gov\.tw$
@@ -1813,6 +1812,7 @@
 (^|\.)zmz00\d\.com$
 (^|\.)pypi\.duolingo\.com$
 (^|\.)jenkins-ci\.duolingo\.com$
+(^|\.)duolingo-deploy\.s3\.amazonaws\.com$
 
 #**********************************************************************
 # 本地/局域网地址
